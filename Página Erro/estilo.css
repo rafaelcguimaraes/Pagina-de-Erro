@@ -1,0 +1,46 @@
+   
+body{
+    margin: 0; /* Utilizado para zerar a margem, gera impressão de tela cheia. */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{ /* Cabeçalho */
+    background-color: rgb(36, 36, 36);
+    height: 60px;
+    padding: 20px 10px;
+}
+img#logo{ /* Ajustando a logo a área do Header. */
+    height: 60px;
+    width: auto;
+}
+img#error{
+    height: 200px;
+}
+section{
+    text-align: center;
+    font-size: 26px;
+}
+p{
+    line-height: 45px;
+}
+a.button{
+    text-decoration: none; /* para tirar o sublinhado */
+    background-color: rgb(48, 205, 215);
+    color: rgb(36, 36, 36);
+    letter-spacing: 4px; /* para criar maior espaço entre as letras */
+    display: inline-block;
+    padding: 20px 77px;
+    margin: 50px auto;
+    border-radius: 5px; /* para ficar com a borda arredondada */
+}
+a.button:hover{
+    background-color: rgb(2, 67, 71);
+    color: rgb(244, 244, 244);
+}
+footer{ /* Rodapé */
+    background-color: rgb(36, 36, 36);
+    color: rgb(48, 205, 215);
+    text-align: center;
+    height: 60px;
+    padding: 20px 10px;
+    
+}
